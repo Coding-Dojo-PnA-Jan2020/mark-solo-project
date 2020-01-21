@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+#wrapper{
+    width: 1000px;
+    margin: 0px auto;
+    background-color:white;
+}
+
+#top-content{
+    padding: 10px;
+    background-image: url("images/mp.JPG");
+    height: 900px;
+    /* border-style: inset; */
+}
+
+.header{
+    display: inline-block;
+    margin-left: 300px;
+    text-align: center;
+    vertical-align: top;
+    padding: 30px 30px 30px 50px;
+    font-size: 35px;
+    font-family: Bradley Hand, cursive;
+    color: black; 
+}
+
+.header p{
+    padding-left: 15px;
+}
+
+.header img{
+    width: 30px;
+    padding-right: 17px;
+}
+
+#nav{
+    width: 660px;
+    height: 200px;
+    list-style-type: none;
+    background-color:white;
+    font-size: 20px;
+    font-family: Bradley Hand, cursive;
+    padding: 0px 69px 0px 63px;
+    font-weight: bold;  
+    margin-left: 125px;
+    border-style: inset;
+    border-color: #8648a9;
+    background-image: url("images/nav.jpg");
+    background-size: cover;
+}
+
+#nav li a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF, 0 0 25px black;
+}
+
+.nav-opt1{
+    display: inline-block;
+    width: 100px;
+    margin-left: 110px;
+}
+
+.nav-opt2{
+    display: inline-block;
+    width: 100px;
+    margin-left: 61px;
+}
+
+.nav-opt3{
+    display: inline-block;
+    width: 100px;
+    margin-left: 47px;
+}
+
+.nav-opt4{
+    display: inline-block;
+    width: 66px;
+    margin-left: 60px;
+}
+#nav li{
+    display: inline-block;
+    text-align: center;
+    padding: 120px 0px 0px 25px;
+    text-decoration: none;
+    /* margin-left: 10px; */
+} 
+
+#main{
+    width: 950px;
+    height: 950px;
+    margin-left: 25px;
+    margin-top: 10px;
+    background-image: url("images/islandvibe.JPG");
+    background-size: cover;
+    padding: 20px;
+    border-style: inset;
+    border-color: #a2baef;
+}
+
+.spotify{
+    border-style: inset;
+    width: 300px;
+    height: 380px;
+    border-color: #ceb8ff;
+}
+
+#welcome{
+    width: 400px;
+    height: auto;
+    margin-left: 15px;
+    display: inline-block;
+    vertical-align: top;
+    font-family: Bradley Hand, cursive;
+    color: white;
+}
+
+#welcome h1{
+    width: 500px;
+    font-weight: bold;
+    padding-left: 187px;
+    padding-bottom: 19px;
+    margin-left: 230px;
+    color: white;
+    vertical-align: top;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF, 0 0 15px black;
+    text-align: center;
+}
+
+#welcome p{
+    text-align: center;
+    vertical-align: top;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF, 0 0 25px black;
+    font-size: 23px;
+    padding-left: 460px;
+    width: 405px;
+}

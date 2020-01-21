@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='solo_project.css') }}">
+    <title>Mark Price Productions</title>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="top-content">
+            <div class="header">
+                <p>Mark Price Productions</p>
+                <a href="https://www.instagram.com/pricebeats/"><img src="{{ url_for('static', filename='images/ig.png') }}"></a>  <a href="https://open.spotify.com/artist/6n0R5ZXIXFAQmrShiUThWg?si=6J3l2uPpTcOaaMw-udly8g"><img src="{{ url_for('static', filename='images/spotify.png') }}"></a>    <a href="https://soundcloud.com/markpriceproductions"><img src="{{ url_for('static', filename='images/soundcloud.png') }}"></a>
+            </div>
+        </div>
+        <ul id="nav">
+            <div class="nav-opt1">
+                <li><a href="#">Home</a></li> 
+            </div>
+            <div class="nav-opt2">
+                <li><a href="/about">About</a></li> 
+            </div>
+            <div class="nav-opt3">
+                <li><a href="/contact">Contact</a></li> 
+            </div>
+            <div class="nav-opt4">
+                <li><a href="/shop">Shop</a></li> 
+            </div>
+        </ul>
+        <div id="main">
+            <div class="spotify">
+                <iframe src="https://open.spotify.com/embed/artist/6n0R5ZXIXFAQmrShiUThWg" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            </div>
+                <div id="welcome">
+                    <h1>Welcome to Mark Price Productions</h1>
+                    <p>One stop shop for all your music needs</p>
+                </div>
+        </div>
+    </div>
+    
+</body>
+</html>
